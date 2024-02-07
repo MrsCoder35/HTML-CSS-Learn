@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+
+@import "./themes.css";
+
+
 
 :root{
 
@@ -16,6 +22,7 @@
     /* FONT */
 
     --ff-workbench:'Workbench', sans-serif;
+    --ff-Bellefair:'Bellefair', serif;
 
     /* FONT SİZES */
 
@@ -39,12 +46,14 @@
 body{
     background-color: var(--white);
     /*font-family: 'Workbench', sans-serif; */
+    /* font-family: 'Bellefair', serif; */
 
 }
 
 h1{
    
 background-color: var(--blue-dark);
+font-family: var(--ff-Bellefair);
 }
 
 p{
@@ -52,6 +61,7 @@ p{
     color: var(--orange-dark);
     font-family: var(--ff-workbench);
     font-size: var(--fs-xl);
+    font-family: var(--ff-Bellefair);
 }
 
 .container{
@@ -64,7 +74,9 @@ p{
 .light{
     width: 150px;
     height: 150px;
-    background-color: var(--pink-3);
+    background-color: var(--yellow-y);
+    background-color: var(--purple);
+    font-family: var(--ff-sevillana);
 
 
 }
@@ -73,5 +85,6 @@ p{
     width: 150px;
     height: 150px;
     background-color: var(--pink-1);
+    font-family: var(--ff-yeon);
 
 }
