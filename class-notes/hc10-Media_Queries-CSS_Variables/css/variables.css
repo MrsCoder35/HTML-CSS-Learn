@@ -1,0 +1,53 @@
+
+
+:root{
+
+    /* COLORS */
+    --white: #ececec;
+    --orange: #f3a81c;
+    --orange-dark: rgb(207, 137, 7);
+    --blue: rgb(84, 84, 231);
+    --blue-dark: rgb(51, 51, 243);
+    --yesil: #0beb29;
+    --yesil-koyu: #23aa23c2;
+
+    /* FONT */
+
+
+}
+
+body{
+    background-color: var(--white);
+    /*  */
+
+}
+
+h1{
+font-family: 'Sixtyfour', sans-serif;    background-color: var(--blue-dark);
+}
+
+p{
+    background-color: var(--blue);
+    color: var(--orange-dark);
+}
+
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+
+}
+
+.light{
+    width: 150px;
+    height: 150px;
+    background-color: var(--yesil);
+
+}
+
+.dark{
+    width: 150px;
+    height: 150px;
+    background-color: var(--yesil-koyu);
+
+}
