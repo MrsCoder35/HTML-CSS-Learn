@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
 
 :root{
 
@@ -13,22 +15,43 @@
 
     /* FONT */
 
+    --ff-workbench:'Workbench', sans-serif;
+
+    /* FONT SİZES */
+
+    --fs-lg:1.4rem;
+    --fs-xl:2rem;
+    --fs-xxl:3rem;
+
+    /* RENK PALETİ */
+
+    --pink-1:#F2529D;
+    --pink-2:#A99CD9;
+    --pink-3:#9080F2;
+    --pink-4:#05F2F2;
+    --yellow-y:#F2CB05;
+
+     
+
 
 }
 
 body{
     background-color: var(--white);
-    /*  */
+    /*font-family: 'Workbench', sans-serif; */
 
 }
 
 h1{
-font-family: 'Sixtyfour', sans-serif;    background-color: var(--blue-dark);
+   
+background-color: var(--blue-dark);
 }
 
 p{
     background-color: var(--blue);
     color: var(--orange-dark);
+    font-family: var(--ff-workbench);
+    font-size: var(--fs-xl);
 }
 
 .container{
@@ -41,13 +64,14 @@ p{
 .light{
     width: 150px;
     height: 150px;
-    background-color: var(--yesil);
+    background-color: var(--pink-3);
+
 
 }
 
 .dark{
     width: 150px;
     height: 150px;
-    background-color: var(--yesil-koyu);
+    background-color: var(--pink-1);
 
 }
