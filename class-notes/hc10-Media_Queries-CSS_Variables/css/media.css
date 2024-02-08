@@ -91,6 +91,29 @@ header.hero h1,p{
   min-width: 300px;
 }
 
+main .card{
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+  border: 20px;
+  box-shadow: var(--shadow-dark);
+  margin: 2rem 0;
+  /* flex-direction: row-reverse; */
+}
+
+main .card:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+main article{
+  flex: 1;
+}
+
+main .card img{
+  width: 100%;
+}
+
 
 
 
@@ -106,7 +129,13 @@ header.hero h1,p{
   header.hero{
     flex-direction: column;
   }
-}
+  main .card{
+    flex-direction: column;
+  }
+  /* main .card:nth-child(even){
+    flex-direction: column;
+  }
+} */
 @media screen and (max-width: 420px) {
   .section-btn {
     display: flex;
