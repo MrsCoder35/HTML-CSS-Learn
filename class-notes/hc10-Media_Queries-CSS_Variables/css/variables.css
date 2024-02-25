@@ -1,121 +1,99 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap');
 
-
-@import "./themes.css";
-
-
+@import './themes.css';
 
 :root{
 
     /* COLORS */
-    --white: #ececec;
-    --orange: #f3a81c;
-    --orange-dark: rgb(207, 137, 7);
-    --blue: rgb(84, 84, 231);
-    --blue-dark: rgb(51, 51, 243);
-    --yesil: #0beb29;
-    --yesil-koyu: #23aa23c2;
+    --white:#ececec;
+    --orange: #e8a935;
+    --orange-dark: #f7a100;
+    --blue: rgb(14, 147, 183);
+    --blue-dark: rgb(5, 20, 227);
+    --yesil: #3fe408;
+    --yesil-koyu: #0e4216;
+
+    /* renk paleti */
+    --green-1:#042940;
+    --green-2:#005C53;
+    --green-3:#9FC131;
+    --green-4:#DBF227;
+    --green-5:#D6D58E;
+
 
     /* FONT */
+    --ff-workbench:'Workbench', sans-serif;;
+    --ff-Josefin:'Josefin Slab', serif;
 
-    --ff-workbench:'Workbench', sans-serif;
-    --ff-Bellefair:'Bellefair', serif;
-
-    /* FONT SİZES */
+    /* FONT_SIZES */
 
     --fs-lg:1.4rem;
     --fs-xl:2rem;
     --fs-xxl:3rem;
-
-    /* RENK PALETİ */
-
-    --pink-1:#F2529D;
-    --pink-2:#A99CD9;
-    --pink-3:#9080F2;
-    --pink-4:#05F2F2;
-    --yellow-y:#F2CB05;
-
-     
-
-
 }
+
 
 body{
     background-color: var(--white);
-    /*font-family: 'Workbench', sans-serif; */
-    /* font-family: 'Bellefair', serif; */
-
+    /* font-family: 'Workbench', sans-serif; */
+    /* font-family: 'Josefin Slab', serif; */
 }
 
 h1{
-   
-background-color: var(--blue-dark);
-font-family: var(--ff-Bellefair);
+    background-color: var(--blue);
+    font-family: var(--ff-Josefin);
 }
 
 p{
-    background-color: var(--blue);
+    background-color: var(--blue-dark);
     color: var(--orange-dark);
     font-family: var(--ff-workbench);
-    font-size: var(--fs-xl);
-    font-family: var(--ff-Bellefair);
+    font-size: var(--fs-lg);
+    /* font-family: var(--ff-Josefin); */
 }
 
 .container{
     border: 2px solid red;
     width: 500px;
     height: 300px;
-
+    
 }
 
 .light{
     width: 150px;
     height: 150px;
-    background-color: var(--yellow-y);
-    background-color: var(--purple);
+    background-color: var(--green-3);
+    background-color: var(--grey-5);
     font-family: var(--ff-sevillana);
-
-
 }
 
 .dark{
     width: 150px;
     height: 150px;
-    background-color: var(--pink-1);
+    background-color: var(--green-2);
     font-family: var(--ff-yeon);
-
 }
 
-@media screen and (min-width:850px) and (max-width:950px){
+
+@media screen and (min-width:850px) and (max-width:950px) {
     body{
-        background-color: rgb(104, 4, 62);
+        background-color: red;
     }
-    
 }
-
-@media screen and (max-width:850px){
+@media screen and (max-width:850) {
     body{
-        background-color: rgb(0, 255, 64);
+        background-color: darkorange;
     }
-    
 }
-
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
     body{
-        background-color: yellow;
+        background-color: olive;
     }
-    
 }
-
-/* screen default halidir, yazmasan da farketmez */
-
-
-@media screen and (max-width:300px){
+@media screen and (max-width:300px) {
     body{
         background-color: fuchsia;
     }
-    
 }
