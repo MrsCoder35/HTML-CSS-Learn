@@ -95,12 +95,12 @@ header{
 /*                 @MIXIN                 */
 /* ---------------------------------------- */
 
-@mixin myBox {
-    background-color: blue;
+@mixin myBox($backColor,$color) {
+    background-color: $backColor;
     width: 25%;
     height: 15rem;
     border-radius: 1rem;
-    color: yellow;
+    color: $color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,20 +112,16 @@ header{
     gap: 1rem;
 
 .card1{
-    @include myBox();
+    @include myBox(blue,yellow);
 }
 .card2{
-    @include myBox();
+    @include myBox(red,white);
 }
 .card3{
-    @include myBox();
+    @include myBox(green,orange);
 }
 .card4{
-    @include myBox();
+    @include myBox(magenta,yellow);
 }
-
-
-
-
 
 }

@@ -89,27 +89,27 @@ header ul a:hover {
   align-items: center;
 }
 .cards .card2 {
-  background-color: blue;
+  background-color: red;
   width: 25%;
   height: 15rem;
   border-radius: 1rem;
-  color: yellow;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .cards .card3 {
-  background-color: blue;
+  background-color: green;
   width: 25%;
   height: 15rem;
   border-radius: 1rem;
-  color: yellow;
+  color: orange;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .cards .card4 {
-  background-color: blue;
+  background-color: magenta;
   width: 25%;
   height: 15rem;
   border-radius: 1rem;
